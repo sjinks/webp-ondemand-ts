@@ -11,18 +11,30 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.1.0",
-    "sharp": "^0.23"
+    "sharp": "^0.23.1"
   },
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
-    "@types/node": "^12.7.2",
-    "@types/sharp": "^0.22.2",
-    "@typescript-eslint/eslint-plugin": "^2",
-    "@typescript-eslint/parser": "^2",
-    "eslint": "^6",
-    "eslint-config-prettier": "^6.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
+    "@types/node": "^12.7.11",
+    "@types/sharp": "^0.22.3",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "prettier": "^1.18.2",
-    "typescript": "^3.5.3"
-  }
+    "typescript": "^3.6.3"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjinks/webp-ondemand-ts.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sjinks/webp-ondemand-ts/issues"
+  },
+  "homepage": "https://github.com/sjinks/webp-ondemand-ts#readme"
 }
