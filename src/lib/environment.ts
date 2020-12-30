@@ -3,7 +3,7 @@ import fs = require('fs');
 import path = require('path');
 import config = require('./config');
 
-export = function(): void {
+export = function (): void {
     const environment: string = process.env.NODE_ENV || 'development';
     const files: string[] = ['.env.defaults', '.env', '.env.local', `.env.${environment}`, `.env.${environment}.local`];
 

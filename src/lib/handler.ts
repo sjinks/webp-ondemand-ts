@@ -91,7 +91,7 @@ function adaptImage(
     let img = sharp(file);
     let cd = 0.0;
     img.metadata()
-        .then(function(metadata): void {
+        .then(function (metadata): void {
             const imageWidth = metadata.width || 0;
             const imageHeight = metadata.height || 0;
             let newWidth: number = imageWidth;
